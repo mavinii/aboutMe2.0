@@ -23,9 +23,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
-        android:textAlignment="center"
-        android:textSize="24sp"
+        android:fontFamily="@font/ubuntu_condensed_regular"
         android:text="@string/user_name_fragmentFirst"
+        android:textAlignment="center"
+        android:textSize="26sp"
         android:textStyle="bold" />
 
     <TextView
@@ -33,10 +34,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
-        android:textAlignment="center"
-        android:textSize="18sp"
+        android:fontFamily="@font/ubuntu_condensed_regular"
         android:text="@string/user_shortIntro_fragmentFirst"
-        android:textStyle="bold" />
+        android:textAlignment="center"
+        android:textSize="20sp" />
 
     <!-- Floating button and textViews   -->
     <!-- Delete the marginTop and the layout goes up again   -->
@@ -67,8 +68,9 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/ubuntu_condensed_regular"
             android:text="@string/user_buldWith_fragmentFirst"
-            android:textAlignment="center"/>
+            android:textAlignment="center" />
     </LinearLayout>
 
 </LinearLayout>

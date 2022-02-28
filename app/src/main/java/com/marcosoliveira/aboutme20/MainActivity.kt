@@ -11,7 +11,8 @@ import com.google.android.material.bottomnavigation.BottomNavigationView
 import com.google.android.material.snackbar.Snackbar
 import kotlinx.android.synthetic.main.fragment_first.*
 
-// **IMPORTANT** in class "MainActivity" I just use as a main point
+
+// **IMPORTANT** this class "MainActivity" I just use as a main point!
 // This class is responsible for all of the other classes
 // On this videos, he explains it better: https://www.youtube.com/watch?v=Chso6xrJ6aU
 class MainActivity : AppCompatActivity() {
