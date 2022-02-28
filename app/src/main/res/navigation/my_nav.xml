@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav"
+    app:startDestination="@id/firstFragment">
+
+    <fragment
+        android:id="@+id/firstFragment"
+        android:name="com.marcosoliveira.aboutme20.FirstFragment"
+        android:label="Profile"
+        tools:layout="@layout/fragment_first" />
+    <fragment
+        android:id="@+id/secondFragment"
+        android:name="com.marcosoliveira.aboutme20.SecondFragment"
+        android:label="Education"
+        tools:layout="@layout/fragment_second" />
+    <fragment
+        android:id="@+id/thirdFragment"
+        android:name="com.marcosoliveira.aboutme20.ThirdFragment"
+        android:label="Hobbies"
+        tools:layout="@layout/fragment_third" />
+    <fragment
+        android:id="@+id/fourthFragment"
+        android:name="com.marcosoliveira.aboutme20.FourthFragment"
+        android:label="Skills"
+        tools:layout="@layout/fragment_fourth" />
+    <fragment
+        android:id="@+id/fifthFragment"
+        android:name="com.marcosoliveira.aboutme20.FifthFragment"
+        android:label="Achievements"
+        tools:layout="@layout/fragment_fifth" />
+</navigation>
