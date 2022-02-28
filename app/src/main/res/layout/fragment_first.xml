@@ -23,10 +23,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
-        android:fontFamily="@font/ubuntu_condensed_regular"
+        android:fontFamily="@font/bebas_neue"
         android:text="@string/user_name_fragmentFirst"
         android:textAlignment="center"
-        android:textSize="26sp"
+        android:textSize="34sp"
         android:textStyle="bold" />
 
     <TextView
@@ -34,7 +34,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
-        android:fontFamily="@font/ubuntu_condensed_regular"
+        android:fontFamily="@font/bebas_neue"
         android:text="@string/user_shortIntro_fragmentFirst"
         android:textAlignment="center"
         android:textSize="20sp" />
@@ -62,15 +62,19 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/bebas_neue"
             android:text="@string/user_copyright_fragmentFirst"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textSize="14sp" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:fontFamily="@font/ubuntu_condensed_regular"
+            android:fontFamily="@font/bebas_neue"
             android:text="@string/user_buldWith_fragmentFirst"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textSize="14sp"
+            android:typeface="normal" />
     </LinearLayout>
 
 </LinearLayout>
