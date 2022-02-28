@@ -39,10 +39,12 @@
         android:textStyle="bold" />
 
     <!-- Floating button and textViews   -->
+    <!-- Delete the marginTop and the layout goes up again   -->
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:layout_gravity="center"
+        android:layout_marginTop="220dp"
         android:orientation="vertical">
 
         <com.google.android.material.floatingactionbutton.FloatingActionButton
@@ -67,7 +69,6 @@
             android:layout_height="wrap_content"
             android:text="@string/user_buldWith_fragmentFirst"
             android:textAlignment="center"/>
-
     </LinearLayout>
 
 </LinearLayout>
