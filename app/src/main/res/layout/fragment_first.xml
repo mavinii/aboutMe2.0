@@ -1,19 +1,73 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".FirstFragment">
 
+    <!-- image with text -->
+    <!-- Source: https://www.youtube.com/watch?v=jihLJ0oVmGo -->
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/imageView"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="100dp"
+        android:layout_gravity="center"
+        android:src="@drawable/marcos_img"
+        app:shapeAppearanceOverlay="@style/Circular"/>
+
     <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
+        android:id="@+id/userName"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/first_fragment"
-        android:textSize="25sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-</androidx.constraintlayout.widget.ConstraintLayout>
+        android:layout_marginTop="15dp"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:text="@string/user_name_fragmentFirst"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/userShortIntro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:text="@string/user_shortIntro_fragmentFirst"
+        android:textStyle="bold" />
+
+    <!-- Floating button and textViews   -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/floating_action_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:layout_marginEnd="20dp"
+            android:backgroundTint="@color/main_color"
+            app:srcCompat="@drawable/ic_email"
+            app:tint="@color/white"
+            android:contentDescription="@string/email_icon_fragmentFirst"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/user_copyright_fragmentFirst"
+            android:textAlignment="center" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/user_buldWith_fragmentFirst"
+            android:textAlignment="center"/>
+
+    </LinearLayout>
+
+</LinearLayout>
