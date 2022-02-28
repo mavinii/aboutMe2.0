@@ -36,7 +36,7 @@ class MainActivity : AppCompatActivity() {
         // https://material.io/components/snackbars/android#theming-snackbars
         val contextView = findViewById<View>(R.id.floating_action_button)
         floating_action_button.setOnClickListener {
-            Snackbar.make(contextView, "22931@student.dorset-college.ie", Snackbar.LENGTH_LONG)
+            Snackbar.make(this, contextView, "22931@student.dorset-college.ie", Snackbar.LENGTH_LONG)
                 .show()
         }
     }

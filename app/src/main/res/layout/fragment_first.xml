@@ -55,9 +55,10 @@
             android:layout_gravity="bottom|end"
             android:layout_marginEnd="20dp"
             android:backgroundTint="@color/main_color"
+            android:contentDescription="@string/email_icon_fragmentFirst"
+            app:backgroundTint="@color/main_color"
             app:srcCompat="@drawable/ic_email"
-            app:tint="@color/white"
-            android:contentDescription="@string/email_icon_fragmentFirst"/>
+            app:tint="@color/white" />
 
         <TextView
             android:layout_width="match_parent"
