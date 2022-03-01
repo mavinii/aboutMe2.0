@@ -20,6 +20,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        // FRAGMENTS SCREEN WITH NAV CONTROLLER ----------------------------------------------------
         // These cods represents all screens with (bottom_nav_icons) and (top_title) are linked together
         // Source: https://www.youtube.com/watch?v=Chso6xrJ6aU
         val bottomNavigationView = findViewById<BottomNavigationView>(R.id.bottomNavigationView)
@@ -32,9 +33,12 @@ class MainActivity : AppCompatActivity() {
 
         bottomNavigationView.setupWithNavController(navController)
 
+
+        // FLOATING BUTTON -------------------------------------------------------------------------
         // This function enables for me to make my button clickable
         // https://material.io/components/snackbars/android#theming-snackbars
         val contextView = findViewById<View>(R.id.floating_action_button)
+
         floating_action_button.setOnClickListener {
             Snackbar.make(this, contextView, "22931@student.dorset-college.ie", Snackbar.LENGTH_LONG)
                 .show()
