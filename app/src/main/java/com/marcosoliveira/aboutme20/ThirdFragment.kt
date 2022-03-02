@@ -15,5 +15,4 @@ class ThirdFragment : Fragment() {
         return inflater.inflate(R.layout.fragment_third, container, false)
     }
 
-    // My code goes here
 }
