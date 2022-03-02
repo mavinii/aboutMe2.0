@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:backgroundTint="@color/background_color"
     tools:context=".FirstFragment">
 
     <!-- image with text -->
@@ -13,7 +14,7 @@
         android:id="@+id/imageView"
         android:layout_width="150dp"
         android:layout_height="150dp"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="150dp"
         android:layout_gravity="center"
         android:src="@drawable/marcos_img"
         app:shapeAppearanceOverlay="@style/Circular"/>
@@ -45,7 +46,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_gravity="center"
-        android:layout_marginTop="220dp"
+        android:layout_marginTop="180dp"
         android:orientation="vertical">
 
         <com.google.android.material.floatingactionbutton.FloatingActionButton

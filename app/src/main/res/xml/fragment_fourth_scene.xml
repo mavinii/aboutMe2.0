@@ -3,17 +3,42 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:motion="http://schemas.android.com/apk/res-auto">
 
+    <!-- Motion Layout must be used with ConstraintLayout-->
+    <!-- Source: https://www.youtube.com/watch?v=ROkKPgXpd1Y -->
     <Transition
         motion:constraintSetEnd="@+id/end"
         motion:constraintSetStart="@id/start"
         motion:duration="1000">
        <KeyFrameSet>
+           <KeyAttribute
+               motion:motionTarget="@+id/background_imageView_skills"
+               motion:framePosition="100"
+               android:alpha="0" />
+           <KeyAttribute
+               motion:motionTarget="@+id/background_imageView_skills"
+               motion:framePosition="50"
+               android:alpha="0" />
+           <KeyAttribute
+               motion:motionTarget="@+id/background_imageView_skills"
+               motion:framePosition="100"
+               android:scaleX="0" />
+           <KeyAttribute
+               motion:motionTarget="@+id/background_imageView_skills"
+               motion:framePosition="100"
+               android:scaleY="0" />
        </KeyFrameSet>
+        <OnSwipe
+            motion:touchAnchorId="@+id/background_imageView_skills"
+            motion:touchAnchorSide="bottom" />
     </Transition>
 
     <ConstraintSet android:id="@+id/start">
     </ConstraintSet>
 
     <ConstraintSet android:id="@+id/end">
+        <Constraint
+            android:layout_height="1dp"
+            android:layout_width="match_parent"
+            android:id="@+id/background_imageView_skills" />
     </ConstraintSet>
 </MotionScene>

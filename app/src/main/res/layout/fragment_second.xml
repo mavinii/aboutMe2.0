@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:backgroundTint="@color/background_color"
     app:layoutDescription="@xml/fragment_second_scene"
     tools:context=".SecondFragment">
 
@@ -52,12 +53,46 @@
             android:orientation="vertical">
 
             <TextView
-                android:id="@+id/description_txt_education"
+                android:id="@+id/description_txt_education1"
                 android:layout_width="match_parent"
-                android:layout_height="469dp"
+                android:layout_height="wrap_content"
                 android:fontFamily="@font/bebas_neue"
                 android:text="@string/lorem_text_education"
                 android:textAllCaps="false"
+                android:textColor="@color/text_color_paragraph"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/description_txt_education2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:fontFamily="@font/bebas_neue"
+                android:text="@string/lorem_text_education"
+                android:textAllCaps="false"
+                android:textColor="@color/text_color_paragraph"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/description_txt_education3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:fontFamily="@font/bebas_neue"
+                android:text="@string/lorem_text_education"
+                android:textAllCaps="false"
+                android:textColor="@color/text_color_paragraph"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/description_txt_education4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:fontFamily="@font/bebas_neue"
+                android:text="@string/lorem_text_education"
+                android:textAllCaps="false"
+                android:textColor="@color/text_color_paragraph"
                 android:textSize="16sp" />
         </LinearLayout>
     </ScrollView>

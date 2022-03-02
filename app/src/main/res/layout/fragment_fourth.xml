@@ -4,9 +4,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:backgroundTint="@color/background_color"
     app:layoutDescription="@xml/fragment_fourth_scene"
     tools:context=".FourthFragment">
 
+    <!-- Motion Layout must be used with ConstraintLayout-->
+    <!-- Source: https://www.youtube.com/watch?v=ROkKPgXpd1Y -->
     <ImageView
         android:id="@+id/background_imageView_skills"
         android:layout_width="match_parent"
@@ -52,7 +55,34 @@
             <TextView
                 android:id="@+id/description_txt_skills"
                 android:layout_width="match_parent"
-                android:layout_height="469dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/bebas_neue"
+                android:text="@string/lorem_text_skills"
+                android:textAllCaps="false"
+                android:textSize="16sp" />
+            <TextView
+                android:id="@+id/description_txt_skills2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:fontFamily="@font/bebas_neue"
+                android:text="@string/lorem_text_skills"
+                android:textAllCaps="false"
+                android:textSize="16sp" />
+            <TextView
+                android:id="@+id/description_txt_skills3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:fontFamily="@font/bebas_neue"
+                android:text="@string/lorem_text_skills"
+                android:textAllCaps="false"
+                android:textSize="16sp" />
+            <TextView
+                android:id="@+id/description_txt_skills4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
                 android:fontFamily="@font/bebas_neue"
                 android:text="@string/lorem_text_skills"
                 android:textAllCaps="false"
