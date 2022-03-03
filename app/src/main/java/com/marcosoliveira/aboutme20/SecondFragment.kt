@@ -13,8 +13,5 @@ class SecondFragment : Fragment() {
     ): View? {
         // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_second, container, false)
-
-    // Now im going to start to work on the second fragment, ive been
-    // think about to use cards
     }
 }

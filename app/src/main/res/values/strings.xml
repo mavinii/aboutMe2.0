@@ -53,4 +53,7 @@
         specimen book. It has survived not only five centuries, but also the leap into electronic
         typesetting, remaining essentially unchanged.</string>
 
+    <string name="menu_top_bar_favorite">Favorite</string>
+    <string name="menu_top_bar_search">Search</string>
+
 </resources>

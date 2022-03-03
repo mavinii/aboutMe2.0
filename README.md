@@ -1,4 +1,4 @@
-# Continuous Assessment 1 - Dorset College 
+# Continuous Assessment 1 - Dorset College
 - Module Title: Mobile App 1
 - Lecture name: Saravanabalagi Ramachandran
 
@@ -7,62 +7,36 @@
 - Student Number: 22931
 
 ## Basic Details:
-- Full name
-- Email
-- Photo
-- Short intro about you
-- 4 buttons that link to 4 additional activities for education, skills, hobbies, achievements respectively
-- Exit button **(Hint: You need to finish the activity when this button is clicked)**
-- Small gray text with copyright and built with info in 2 separate lines at the end **(E.g. © Copyright John Doe 2022, Built with Android Studio)**.
+- [x] Full name
+- [x] Email
+- [x] Photo
+- [x] Short intro about you
+- [x] 4 buttons that link to 4 additional activities for education, skills, hobbies, achievements respectively
+- [x] Small gray text with copyright and built with info in 2 separate lines at the end **(E.g. © Copyright John Doe 2022, Built with Android Studio)**.
 
-## Each button link should open a new activity that contains:
-- Top row (title bar) should have a vector icon and title of the activity **(e.g. mortarboard icon followed by the title "Education")**.
-- Relevant details in multiple text views.
-- images related to the details presented e.g. your school logo, image of your school, etc. (At least one image should be present)
-- at the bottom, a row containing three buttons (or two buttons) as explained below should be present:
-    - Back button with text same as previous activity's name, should not be present in first of the four extra activities
-    - Home icon (no text)
-    - Next button with text same as next activity's name, should not be present in last of the four extra activities
-    - e.g. 1, for hobbies (middle) activity, there are 3 buttons: skills, home icon and achievements
-    - e.g. 2, for achievements (last) activity, there are only 2 buttons: hobbies and home icon
-- Same small copyright text present in Main Activity
-- In the skills page, mention Android Studio, display this SVG icon. (Hint: You need to import this as a vector asset and a new XML file will be created).
-- Make your layouts scrollable. (Hint: Wrap required layouts inside ScrollView)
-- Feel free to add additional information (such as languages known, interests, goals, volunteering experiences, etc.) and additional assets (such as images and icons) to make the app lively and complete. You are allowed to make changes to text elements e.g. change title "Education" to "Educational Requirements".
+## About the project:
+For this project, we were asked to create an App called About Me using the framework Android Studio with Kotlin, with all requirements such as 4 buttons, an image rounded with code, and some texts with some words on the bottom of the main screen. Each button should take the user to its screen.
 
-## Requirements Checklist:
-1. - [x] Main Activity (or Launcher Activity)
-2. - [x] Button Links open new Activity
-3. - [x] Home icon opens Main Activity from back-stack instead of creating newly
-4. - [x] Exit Button finishes the activity and closes the app
-5. - [x] Text is not hardcoded in the layout but is present in "strings" resources xml file
-### Image Assets:
-1. - [x] Images (Raster) are used
-2. - [x] Vector icons (inbuilt material icons) are used
-3. - [x] SVG icon is used
-### Layout and Design:
-1. - [x] All text presented should be clear and legible and should have sufficient contrast (Hint: Dark Gray Text on Dark Blue background is bad)
-2. - [x] All activities should contain ScrollViews to display lengthy content
-### In Main Activity: 
-1. - [x] Basic details are centered horizontally
-2. - [x] Photo has at least 5dp margin on all sides
-3. - [x] 4 buttons have same length
-### Copyright Text: 
-1. - [x] has a small font size
-2. - [x] has dark gray color
-3. - [x] has a top padding 10dp with a top gray border of 1dp (to separate it out from the main content)
-### In all 4 extra activities: 
-1. - [x] title row is at the top of the app and does not scroll
-2. - [x] title row has a dark background (and hence white/light colored text and icon)
-3. - [x] button row is at the bottom of the app and does not scroll
-4. - [x] button row has 3 buttons (or 2 buttons) are present in one row with at least 5dp space in between them
-5. - [x] button row spans full width of the app (i.e. each button's width will be set based on app's width)
-6. - [ ] icon and title are displayed on top and in one row horizontally centered. Contents inside this row should be vertically aligned in the centre (while the row itself is at the top of the page)
-### Coding Practices (Hint: Check online if you don't know what the right/best practice is):
-1. - [x] Variable and File Naming conventions are followed
-2. - [x] Code is properly indented
-3. - [x] Right File Structure is followed (e.g. Layout xml files placed directly under resources directory is bad, place it in "layout" folder instead)
-### Hard:
-1. - [x] Use at least one FrameLayout as a separator e.g. to separate two LinearLayouts or TextViews (Hint: Set height 1dp with a light gray background)
-2. - [x] Show both icons and text in buttons (except home icon)
-3. - [x] Make ImageView display your photo with rounded corners (without editing your photo)
+## What I expected
+When I read the requirements for the first time I thought, it can be done very quickly, even though I never had used Android Studio before, it was just because Android is very popular and maybe I could find easy some documentation and tutorials. But what I did not know is that Android Studio is very complex for beginners like me, and Kotlin for me is a new language, even though we did not really code properly, it was more like for understanding the framework, layout, buttons, in general, all the structure of the software.
+
+## Challenging
+Well, I can say that everything was challenging for me from the first time I opened Visual Studio. It took some time to prepare things.
+As I don't have an android phone, I had to use the emulator, but the emulator is so heavy that I had to close everything and leave enough space for Android Studio to work as smoothly as possible.
+
+## Challenging 1:
+After re-watch some classes again, I was able to create the first screen, adding some buttons and some textView. After getting the first screen done as requested by the lecture I thought, oh ok, it’s not that hard. I uploaded and released the first version of my App. Went back to ready again the assessment guidelines, and to my surprise, we needed to use Linear Layout instead Constraint Layout, my nightmary has been started.
+This time I decided to use the Material IO from google just adding it to the Grade file.
+I needed to learn how to implement everything that I have been doing but using Linear Layout. That took me a lot of time and some stress. One of the screens I’m using “fragment Layout”, yes, “fragment” without capital F and I don’t know why, but it is like that and it is working.
+
+## Challenging 2:
+After finally I could make the first screens ready and 4 buttons were clicked and it was taken the user to the next screen, I realized that the top bar was not displaying the name of the screen. I tried to fix this issue but it took me so many hours and I messed up all my code, and there were so many comments that I could not come back the time it was working… so I decided to delete everything I had been doing and start from scratch.
+
+## Challenging 3:
+The next day, after so much stress, I was googling how to add the bottom nav bar with icons, instead of 4 buttons in the middle of the screen. I learned something called “Fragment”. I found a guy on YouTube(the link of his video is commented on my project), that showed how to apply Fragment with icons on the bottom, when clicked it takes us to the next screen. It was everything that I needed! I just did the same but with 5 icons and it worked very well.
+
+## Challenging 4:
+Now that every icon was clickable and it was taken the user to the next screen, I would like to go further and add a favorite icon on the top of each screen, but unfortunately, I could not make it work. I have been trying so many different things but none of them has been working. A top menu on the top of other, app crash while opening it… no many different issues. I hope to be able to fix it later on.
+
+## Final thoughts
+Even though I am still very beginner, I have been learning a lot about how to use Android Studio with kotlin, I hope to be able to develop something really helpful and help others as they have been helping me with documentation, videos.

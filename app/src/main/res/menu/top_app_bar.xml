@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Been trying to add a top menu bar with some icons   -->
+    <!-- using Fragment, but could not make it work   -->
+    <item
+        android:id="@+id/firstFragment"
+        android:icon="@drawable/ic_favorite"
+        android:title="@string/menu_top_bar_favorite" />
+    <item
+        android:id="@+id/secondFragment"
+        android:icon="@drawable/ic_search"
+        android:title="@string/menu_top_bar_search" />
+</menu>

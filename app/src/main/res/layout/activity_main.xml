@@ -9,6 +9,7 @@
     tools:context=".MainActivity" >
 
     <!-- DON'T CHANGE it! Leave it as "fragment" -->
+    <!-- This fragment does not work with Linear Layout -->
     <fragment
         android:id="@+id/fragment"
         android:name="androidx.navigation.fragment.NavHostFragment"
