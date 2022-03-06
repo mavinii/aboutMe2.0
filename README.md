@@ -7,7 +7,7 @@
 - Student Number: 22931
 
 ## Basic Details:
-- [x] Graciele
+- [x] Full name
 - [x] Email
 - [x] Photo
 - [x] Short intro about you

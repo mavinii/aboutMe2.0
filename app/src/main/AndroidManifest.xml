@@ -21,8 +21,6 @@
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
-
-<!--        CHECAR O ANDROID MANIFEST PQ, QUANDO EU VOU INSTALAR O APP PELO DOIDAO LA, NO RE BUILD THIS QUE ELE MUDA O MANIFEST-->
     </application>
 
 </manifest>
