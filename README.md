@@ -38,5 +38,13 @@ The next day, after so much stress, I was googling how to add the bottom nav bar
 ## Challenge 4:
 Now that every icon was clickable and it was taken the user to the next screen, I would like to go further and add a favorite icon on the top of each screen, but unfortunately, I could not make it work. I have been trying so many different things but none of them has been working. A top menu on the top of other, app crash while opening it… no many different issues. I hope to be able to fix it later on.
 
-## Final thoughts
+## Final thoughts:
 Even though I am still very beginner, I have been learning a lot about how to use Android Studio with kotlin, I hope to be able to develop something really helpful and help others as they have been helping me with documentation, videos.
+
+## References:
+- Material Design 2: https://material.io
+- Android apps with Kotlin: https://developer.android.com/kotlin
+- TVAC Studio YouTube: https://rb.gy/dw0vf3
+- The dev's king: https://stackoverflow.com
+
+:apple:
